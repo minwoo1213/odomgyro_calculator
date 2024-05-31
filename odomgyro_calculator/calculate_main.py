@@ -30,8 +30,8 @@ class OdomGyroCalculator(Node):
         roll, pitch, yaw = self.quaternion_to_euler(quaternion)    
         
         self.get_logger().info("\n")
-        self.get_logger().info(f"Quaternion values:\n x: {quaternion.x}\n y: {quaternion.y}\n z: {quaternion.z}\n w: {quaternion.w}")
-        self.get_logger().info(f"Converted Euler angles:\n R: {roll}\n P: {pitch}\n Y: {yaw}")
+        self.get_logger().info(f"Quaternions:\n x: {quaternion.x}\n y: {quaternion.y}\n z: {quaternion.z}\n w: {quaternion.w}")
+        self.get_logger().info(f"Euler angles:\n R: {roll}\n P: {pitch}\n Y: {yaw}")
         #self.get_logger().info("\n")
 
 def main(args=None):
