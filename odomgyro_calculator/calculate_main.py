@@ -31,8 +31,8 @@ class OdomGyroCalculator(Node):
         
         self.get_logger().info("\n")
         self.get_logger().info(f"Quaternion values:\n x: {quaternion.x}\n y: {quaternion.y}\n z: {quaternion.z}\n w: {quaternion.w}")
-        self.get_logger().info(f"Converted Euler angles:\n Roll: {roll}\n Pitch: {pitch}\n Yaw: {yaw}")
-        self.get_logger().info("\n")
+        self.get_logger().info(f"Converted Euler angles:\n R: {roll}\n P: {pitch}\n Y: {yaw}")
+        #self.get_logger().info("\n")
 
 def main(args=None):
     rclpy.init(args=args)
