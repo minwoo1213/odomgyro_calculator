@@ -24,21 +24,21 @@ Make sure to have these packages installed in your ROS 2 environment before usin
 1. Clone the repository into your ROS 2 workspace's `src` director
 
 ```bash
-cd /path/to/your/ros2_workspace/src
+cd /{workspace}/src
 git clone https://github.com/your_username/odomgyro_calculator.git
 ```
 
 2. Build the package using colcon
 
 ```bash
-cd /path/to/your/ros2_workspace/
+cd /{workspace}/
 colcon build
 ```
 
 3. Source the setup script to add the package to your ROS 2 environment
 
 ```bash
-source /path/to/your/ros2_workspace/install/local_setup.bash
+source /{workspace}/install/local_setup.bash
 ```
 
 4. Launch your package
